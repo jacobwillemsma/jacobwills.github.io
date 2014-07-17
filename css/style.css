@@ -414,7 +414,7 @@ label {
 }
 .hero-unit h1 {
   margin-bottom: 0;
-  font-size: 60px;
+  font-size: 85px;
   line-height: 1;
   letter-spacing: -1px;
   color: inherit;
@@ -630,12 +630,6 @@ section * {
 }
 .navbar .subnav {
   display: none;
-}
-.navbar a {
-  -webkit-transition: color 0.25s, background 0.25s;
-  -moz-transition: color 0.25s, background 0.25s;
-  -o-transition: color 0.25s, background 0.25s;
-  transition: color 0.25s, background 0.25s;
 }
 .navbar .navbar-collapse {
   padding-left: 0;
@@ -871,11 +865,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin-left: 0;
 }
 .header-10 .navbar .nav > li > a {
-  padding: 29px 0 27px;
-  font-size: 17px;
-  font-weight: normal;
-  color: #7f8c8d;
-  font-weight: 500;
+  padding: 30px 0 30px;
   letter-spacing: 1px;
   color: #ffffff;
 }
@@ -975,21 +965,14 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   margin: 0;
   background-color: transparent;
 }
-.header-10-sub .hero-unit h1 {
-  margin: 0 0 30px;
-  font-size: 45px;
-  font-weight: normal;
-  color: #ffffff;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
-}
 .header-10-sub .hero-unit p {
-  font-size: 25px;
-  font-weight: normal;
-  color: #bdc3c7;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-weight: 300;
+  font-size: 70px;
+  font-weight: bold;
+  color: #480909;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 37.5px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
 }
 @media (max-width: 480px) {
   .header-10-sub .hero-unit h1 {
@@ -1436,7 +1419,7 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 }
 /* custom styles */
 body {
-  font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Domine", Arial, sans-serif;
   color: #676767;
 }
 ul {
@@ -1472,13 +1455,11 @@ ul {
     margin-left: 62px;
 }
 .header-10 .navbar .nav > li a {
-  font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 13px;
-  line-height: 17px;
-  letter-spacing: 0;
-  text-transform: uppercase;
+  font-family: "Raleway", Arial, sans-serif;
+  font-size: 35px;
   font-weight: bold;
-  transition: color 0.4s linear;
+  -webkit-text-stroke-width: 0.5px;
+  -webkit-text-stroke-color: black;
 }
 .header-10 .navbar .nav > li.active a {
   color: #25221e;
@@ -1487,15 +1468,14 @@ ul {
   opacity: 1;
 }
 .header-10-sub .hero-unit h1 {
-  font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 50px;
-  line-height: 60px;
+  color: #630707;
+  font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: bold;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  margin: 0 0 30px;
 }
-.header-10-sub .hero-unit p{
-    font-size: 23px;
-    line-height: 33px;
-}
+
 .header-23-sub {
   background-color: #25221e;
   padding: 290px 0;
@@ -1594,7 +1574,7 @@ ul {
   text-decoration: none;
 }
 .simple-block {
-  padding: 150px 0 175px;
+  padding: 100px 0 100px;
 }
 @media(max-width: 450px){
     .simple-block {
@@ -1608,7 +1588,7 @@ ul {
   text-align: left;
 }
 .simple-block h1 {
-  font-family: proxima-nova, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Domine", Helvetica, Arial, sans-serif;
   color: #1b1f23;
   text-align: center;
   font-size: 40px;
@@ -1646,7 +1626,7 @@ ul {
 }
 .simple-block .links li {
   display: table-cell;
-  font-family: 'Radley', serif;
+  font-family: "Domine", Arial, sans-serif;
   font-size: 48px;
   line-height: normal;
   list-style: none;
@@ -1663,7 +1643,7 @@ ul {
     }
 }
 .simple-block .links li:first-child {
-  font-family: 'Gabriela';
+  font-family: "Domine", Arial, sans-serif;
   font-size: 45px;
   line-height: 60px;
   text-align: left;
@@ -1675,7 +1655,7 @@ ul {
     }
 }
 .simple-block .links li:last-child {
-  font-family: 'Trocchi', serif;
+  font-family: "Domine", Arial, sans-serif;
   font-size: 40px;
   text-align: right;
   padding: 0;
@@ -1686,7 +1666,7 @@ ul {
     }
 }
 .simple-block .links li a {
-  color: rgba(37, 34, 30, 0.302);
+  color: #89150a;
   text-decoration: none;
 }
 .content-23{
