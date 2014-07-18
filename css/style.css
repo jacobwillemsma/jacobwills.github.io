@@ -1865,3 +1865,15 @@ ul {
 #second .background{
     background-image: url("../img/bread-section-bg.jpg");
 }
+
+.bg-1 {
+	background: url('/assets/example/bg_blueplane.jpg') no-repeat center center fixed;
+    color:#fff;
+    background-size:cover;
+}
+  
+.bg-2 {
+	background: url('images/about-picture.jpg') no-repeat top center fixed;
+    color:#fff;
+    background-size:cover;
+}
