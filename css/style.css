@@ -968,10 +968,10 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
 .header-10-sub .hero-unit p {
   font-size: 70px;
   font-weight: bold;
-  color: #c50a0e;
+  color: white;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 37.5px;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
 }
 @media (max-width: 480px) {
@@ -1468,10 +1468,10 @@ ul {
   opacity: 1;
 }
 .header-10-sub .hero-unit h1 {
-  color: #c50a0e;
+  color: white;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   font-weight: bold;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
   margin: 0 0 30px;
 }
