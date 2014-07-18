@@ -3,15 +3,7 @@
  * Use namespaces.
  */
 
-window.isRetina = (function() {
-    var root = ( typeof exports == 'undefined' ? window : exports);
-    var mediaQuery = "(-webkit-min-device-pixel-ratio: 1.5),(min--moz-device-pixel-ratio: 1.5),(-o-min-device-pixel-ratio: 3/2),(min-resolution: 1.5dppx)";
-    if (root.devicePixelRatio > 1)
-        return true;
-    if (root.matchMedia && root.matchMedia(mediaQuery).matches)
-        return true;
-    return false;
-})();
+
 //nextOrFirst? prevOrLast?
 jQuery.fn.nextOrFirst = function(selector) { var next = this.next(selector); return (next.length) ? next : this.prevAll(selector).last(); }
 jQuery.fn.prevOrLast = function(selector){ var prev = this.prev(selector); return (prev.length) ? prev : this.nextAll(selector).last(); }
@@ -32,72 +24,7 @@ startupKit.hideCollapseMenu = function() {
     }, 400)
 }
 
-$(function () {
-    $('.page-wrapper, .navbar-fixed-top, .navbar-collapse a, .navbar-collapse button, .navbar-collapse input[type=submit]').on('click', function(e) {
-        if($('html').hasClass('nav-visible')) {
-            setTimeout(function(){
-                startupKit.hideCollapseMenu();
-            }, 200)
-        }
-    });
-    $(window).resize(function() {
-        if($(window).width() > 965) {
-            startupKit.hideCollapseMenu();
-        }
-    });
 
-    var menuCollapse = $('#header-dockbar > .colapsed-menu').clone(true);
-    $('body').append(menuCollapse);
-
-    $('#open-close-menu').on('click', function () {
-        if($('html').hasClass('nav-visible')) {
-            startupKit.hideCollapseMenu();
-        } else {
-            $('body > .colapsed-menu').addClass('show-menu');
-            if($('#header-dockbar').length) {
-                 $('body > .colapsed-menu').css({
-                    top: $('#header-dockbar').height()
-                });
-            }
-            setTimeout(function() {
-                $('html').addClass('nav-visible');
-            }, 1)
-        }
-    });
-    if($('.social-btn-facebook').length){
-        $('.social-btn-facebook').sharrre({
-            share: {
-                facebook: true
-            },
-            enableHover: false,
-            enableCounter: false,
-            click: function(api, options){
-                api.simulateClick();
-                api.openPopup('facebook');
-            }
-        });
-    }
-
-    if($('.social-btn-twitter').length){
-        $('.social-btn-twitter').sharrre({
-            share: {
-                twitter: true
-            },
-            enableHover: false,
-            enableCounter: false,
-            buttons: {
-                twitter: {
-                    via: 'Designmodo',
-                    url: false
-                }
-            },
-            click: function(api, options){
-                api.simulateClick();
-                api.openPopup('twitter');
-            }
-        });
-    }
-});
 
 /**
  *  Headers 
