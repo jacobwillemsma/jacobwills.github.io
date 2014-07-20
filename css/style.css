@@ -966,13 +966,12 @@ body > .navbar-collapse .navbar-search .btn-primary:hover {
   background-color: transparent;
 }
 .header-10-sub .hero-unit p {
-  font-size: 70px;
-  font-weight: bold;
+  font-size: 50px;
   color: white;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
   line-height: 37.5px;
-  -webkit-text-stroke-width: 0.5px;
-  -webkit-text-stroke-color: black;
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+
 }
 @media (max-width: 480px) {
   .header-10-sub .hero-unit h1 {
@@ -1470,9 +1469,10 @@ ul {
 .header-10-sub .hero-unit h1 {
   color: white;
   font-family: "Raleway", Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-weight: bolder;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: black;
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
   margin: 0 0 30px;
 }
 
