@@ -1,0 +1,49 @@
+body {
+margin: 0;
+}
+.background {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+.container {
+  position: relative;
+  z-index: 2;
+}
+.header-10-sub {
+  position: relative;
+  z-index: 50;
+  height: 800px;
+  text-align: center;
+}
+.header-10-sub.v-center,
+.header-10-sub .v-center {
+  display: table;
+  width: 100%;
+}
+.header-10-sub.v-center > div,
+.header-10-sub .v-center > div {
+  display: table-cell;
+  vertical-align: middle;
+}
+.header-10-sub .hero-unit h1 {
+  font-size: 128px;
+  font-weight: normal;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  color: black;
+  -webkit-text-fill-color: white;
+
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
+
+.header-10-sub .hero-unit p {
+  font-size: 64px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: black;
+  -webkit-text-fill-color: white;
+
+  text-shadow: 3px 3px 5px rgba(0,0,0,0.5);
+}
