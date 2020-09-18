@@ -34,7 +34,7 @@
     "markdown": "~0.4.0",
     "object-assign": "^2.0.0",
     "q": "~0.8.11",
-    "react": "^0.13.1",
+    "react": "^0.14.0",
     "underscore": "~1.4.3"
   }
 }
